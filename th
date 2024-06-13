@@ -6,7 +6,7 @@ if (typeof window.PUB_SUB_EVENTS === 'undefined') {
   };
 }
 
-// Fonction debounce
+// Fonction debounceA
 function debounce(func, wait, immediate) {
   let timeout;
   return function() {
